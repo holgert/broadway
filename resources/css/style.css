@@ -1,17 +1,42 @@
-* {
+html {
     font-family: Helvetica;
-    color: black;
     text-align: center;
+    color: black;
+    font-size: 18px;
 }
 
 h1 {
     font-size: 70px;
     font-weight: bold;
-    color: white;
-    background-image: url("./resources/images/the-flatiron-building.png");
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
 }
 
 .header {
-    background-image: url("./resources/images/the-flatiron-building.png");
-    color: green;
+    color: white;
+    background-image: url("https://holgert.github.io/broadway/resources/images/the-flatiron-building.png");
+ }
+
+ .subheading {
+    font-size: 23px;
+    font-weight: bold;
+    color:white;
+    background-image: url("https://holgert.github.io/broadway/resources/images/the-flatiron-building.png");
+ }
+
+ .footer {
+     background-color: dimgrey;
+     font-size: 11px;
+     text-align: left;
+ }
+
+a:any-link {
+     color: white;
  }
